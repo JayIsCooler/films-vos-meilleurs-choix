@@ -11,7 +11,6 @@
     border-left: solid 5px variables.$primary;
     padding-left: 20px;
     color: white;
-    @include text.small-cap;
   }
 
   &__title {
@@ -21,6 +20,7 @@
   
   &__desc {
     opacity: 0.7;
+    @include text.small-cap;
   }
   
   &__wrapper {

@@ -14,10 +14,12 @@
         background: color.adjust(variables.$primary, $lightness: 15%);
         color: color.complement(variables.$primary);
         @include text.small-cap;
+
+        &:hover {
+            background: color.adjust(variables.$primary, $lightness: 25%);
+            cursor: pointer;
+        }
     }
 
-    &__btn:hover {
-        background: color.adjust(variables.$primary, $lightness: 25%);
-        cursor: pointer;
-    }
+
 }
