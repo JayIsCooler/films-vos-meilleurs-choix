@@ -42,8 +42,9 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.card:hover {
+.card__btn:hover {
   background: #afdbe5;
+  cursor: pointer;
 }
 
 body {
