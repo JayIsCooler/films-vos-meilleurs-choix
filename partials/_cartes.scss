@@ -16,7 +16,7 @@
         @include text.small-cap;
     }
 
-    &__btn:hover {
+    &:hover {
         background: color.adjust(variables.$primary, $lightness: 25%);
     }
 }

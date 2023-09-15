@@ -42,7 +42,7 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.card__btn:hover {
+.card:hover {
   background: #afdbe5;
 }
 
